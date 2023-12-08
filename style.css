@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: dodgerblue;
+}
+body{
+ text-align: center;
+ display: flex;
+ justify-content: center;
+
+}
+.hide{
+    display: none;
+}
+#gameTitle:hover{
+    /* text-decoration: underline 2px blueviolet; */
+    border: 2px solid brown;
+    background-color: black;
+    color: white;
+    padding:5px;
+    transition:1s;
+    border-radius: 10px;
+}
+.gameContainer{
+    height:70vh;
+    width: 30vw;
+    /* background-color: rgb(193, 197, 190); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 50px;
+  
+}
+.game{
+    height:60vmin;
+    width: 60vmin;
+    /* background-color: floralwhite; */
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     gap:5px;
+     border-radius: 5px;
+     padding: 5px;
+
+    
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 15px;
+    gap:5px;
+    box-shadow: 3px 3px 2px rgb(0,255,0);
+    font-size: 8vmin;
+    color: #8d1111;
+    border: none;
+    
+}
+#resetBtn{
+    font-size: 3vmin;
+    padding:5px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: black;
+    color:green;
+
+}
+.msgContainer{
+    height: 100vmin;
+    /* position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%); */
+    margin-top: 100px;
+    padding-top: 50px;
+
+    
+  
+}
+#newGameBtn{
+    font-size: 3vmin;
+    padding:5px;
+    margin-top: 30px;
+    border-radius: 8px;
+    background-color: black;
+    color:green;
+    justify-content: center;
+    text-align: center;
+}
+#winner{
+    border: 2px solid brown;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding:5px;
+    transition:1s;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    
+}
